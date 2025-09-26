@@ -1,0 +1,124 @@
+.tortyk {
+    width: 60%;
+    font-size: 2rem;
+    padding: 5%;
+    font-family: "Vollkorn", serif;
+    background-color: rgba(255, 193, 149, 0.6);
+    background-size: cover;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+
+.sectionStyles1 {
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 5%;
+}
+.euro {
+    width: 50%;
+    padding: 5%;
+}
+.euro img {
+    width: 30%;
+}
+.c1 {
+    transform: rotate(12deg);
+}
+.c2 {
+    transform: rotate(-12deg);
+}
+.c3 {
+    transform: rotate(12deg);
+}
+.c4 {
+    transform: rotate(-12deg);
+}
+.c5 {
+    transform: rotate(12deg);
+}
+.c6 {
+    transform: rotate(-12deg);
+}
+.c7 {
+    transform: rotate(12deg);
+}
+.c8 {
+    transform: rotate(-12deg);
+}
+.c9 {
+    transform: rotate(12deg);
+}
+
+.euro2 {
+    width: 50%;
+}
+.europapa {
+    font-size: xx-large;
+    width: 90%;
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    background-color: rgba(255, 207, 173, 0.6);
+    background-size: cover;
+    border-radius: 5%;
+}
+.euro3 {
+    display: flex;
+}
+.mainStyles {
+    background-image: url(1.png);
+}
+@media (max-width: 1002px) {
+    .tortyk {
+        width: 70%;
+        font-size: 2.5rem;
+    }
+
+   .europapa {
+    font-size: 2rem;
+    width: 100%;
+
+
+       }
+
+     .hjk{
+      font-size: 2rem;
+
+
+    }
+    .yte{
+        height: 11rem;
+        width: 100%;
+        font-size: 1.5rem
+    }
+    .uyt{
+        width: 100%;
+    }
+
+    .euro
+    {
+        width: 90%;
+    }
+    .euro3
+    {
+        display: block;
+    }
+   .euro2
+    {
+        width: 65%;
+        margin: 0 auto;
+    }
+   .tortyk
+    {
+        font-size: 3rem;
+    }
+    .euro img
+    {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+
+}
