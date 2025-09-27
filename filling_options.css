@@ -6,7 +6,7 @@
 
 }
 .background_Main {
-    background-image: url("image/1.png");
+    background-color: #c1ffb2;
     background-size: cover;
     background-position: center;
 }
@@ -49,9 +49,11 @@
 }
 .il
 {
-    background-color: lightpink;
+    background-color: #1f8e04;
     border-radius: 10px;
     font-size: large;
+        border-top: 5px solid lightgreen;
+    border-bottom: 5px solid green;
 }
 .ugc
 {

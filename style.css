@@ -3,9 +3,9 @@ body {
     margin: 0;
 }
 .yte {
-    background: linear-gradient(to right, #fff7ad, #ffc2fb);
-    text-shadow: -5px 5px 5px #5a3e36;
-    color: #2f2f2f;
+    background-image: url("image/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8%20(1).png");
+
+    color: #0e6407;
     display: flex;
     justify-content: space-between;
     font-family: "Open Sans", sans-serif;
@@ -22,12 +22,12 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 .uyt li a {
-    text-shadow: -5px 5px 5px #5a3e36;
-    color: #2f2f2f;
+
+    color: #0e6407;
     text-decoration: none;
 }
 .m1 {
-    background-image: url("1.png");
+    background-color: #c1ffb2;
     background-position: center;
     background-size: cover;
     padding: 32px;
@@ -36,10 +36,11 @@ body {
     text-align: center;
     font-size: 46px;
     margin: 0;
-    color: #5a3e36;
+    color: #436935;
 }
 .i1 {
     width: 20%;
+
 }
 .d1 {
     display: flex;
