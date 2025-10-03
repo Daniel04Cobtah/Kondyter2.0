@@ -1,7 +1,7 @@
 .d10 {
   width: 100%;
 }
-br{
+br {
   display: none;
 }
 .d11 {
@@ -33,42 +33,91 @@ br{
   color: #5a3e36;
   text-align: center;
 }
-@media(max-width:1000px){
+@media (max-width: 1000px) {
   .d10 {
-  width: 100%;
-}
-  br{
-  display: block;
-}
-.d11 {
-  text-align: center;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  display: block;
-}
-.d12 {
-  color: #5a3e36;
-  background-color: #fad8df;
-  border-radius: 50%;
+    width: 100%;
+  }
+  br {
+    display: block;
+  }
+  .d11 {
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+  }
+  .d12 {
+    color: #5a3e36;
+    background-color: #fad8df;
+    border-radius: 50%;
     width: 200px;
     height: 200px;
-  margin: 0 auto;
-
+    margin: 0 auto;
+  }
+  .d13 {
+    width: 100%;
+  }
+  .d13 p {
+    color: #5a3e36;
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+  }
+  .h1 {
+    font-size: 50%;
+    color: #5a3e36;
+    text-align: center;
+  }
 }
-.d13 {
-  width: 100%;
+#moduleWindow {
+  width: 40%;
+  height: 20vh;
+  text-align: center;
+  background: #f2f2f2;
+  position: fixed;
+  border-radius: 10px;
+  left: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 10px black;
+  top: 3%;
+  display: none;
+  animation-name: animationFacebook;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  transform: translate(-50%, 35%);
+  animation-timing-function: ease-out;
 }
-.d13 p {
-  color: #5a3e36;
-  font-size: 2rem;
-  width: 100%;
-  text-align:center;
-  font-weight: 700;
-}
-.h1 {
-  font-size: 50%;
-  color: #5a3e36;
+.America {
+  align-content: flex-start;
   text-align: center;
 }
+.America hr {
+  width: 50%;
+  background-color: black;
+}
+.buket {
+  color: black;
+  margin: -0;
+}
+
+.atlantian {
+  color: white;
+  background-color: #1877f2;
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 1%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+@keyframes animationFacebook {
+  from {
+    transform: translate(-50%, -100%);
+  }
+
+  to {
+    transform: translate(-50%, 35%);
+  }
 }
