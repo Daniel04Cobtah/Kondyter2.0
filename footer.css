@@ -8,8 +8,8 @@
     width: 23%;
     font-size: 2rem;
     text-align: center;
-    color: #2f2f2f;
-    text-shadow: -7px 3px 7px #5a3e36;
+    color: #000000;
+    text-shadow: -7px 3px 7px #ffffff;
 
 
 
@@ -18,7 +18,7 @@
 
 
 .img{
-    background-image: url('Pasted%20image.png');
+    background-color: darkgrey;
     background-size: cover;
     background-position: center;
     display: flex;
