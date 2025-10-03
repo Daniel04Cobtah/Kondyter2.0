@@ -100,6 +100,15 @@
     {
         padding: 10%;
     }
+     #moduleWindow
+    {
+        font-size: 2.5rem;
+    }
+    #moduleWindow img
+    {
+        width: 35%;
+    }
+
 
 }
 
