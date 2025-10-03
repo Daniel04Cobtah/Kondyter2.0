@@ -1,12 +1,5 @@
 .hjk{
     width: 60%;
-
-
-
-}
-.bht{
-    width: 23%;
-    width: 60%;
     color: #000000;
     text-shadow: -7px 3px 7px #000000;
 
@@ -26,7 +19,7 @@
 
 
 .img{
-    background:  linear-gradient(to top, #75ff53, #c1ffb2);
+    background-color: #7cb66d;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -59,75 +52,12 @@
 .bht h2{
     font-weight: 100;
 
-}
-@media (max-width: 1000px){
-
-    .bht{
-      font-size: 2.5rem;
-
-
-    }
-    .non p{
-    font-size: 3rem;
-
-    }
-
-
-
-
-
-
-    .img
-    {
-        font-size: 5rem;
-    }
 
 }
+.divcolors{
+    background:  linear-gradient(to top, #7cb66d 40%, #deffd6 );
+    height: 10vh;
 
-    font-size: 2rem;
-    text-align: center;
-    color: #2f2f2f;
-    text-shadow: -7px 3px 7px #5a3e36;
-
-
-
-}
-
-
-
-.img{
-    background-image: url('Pasted%20image.png');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-
-
-
-}
-.non{
-    list-style: none;
-
-}
-.non li{
-    display: flex;
-    align-items: center;
-
-
-
-}
-.img svg{
-    width: 50px;
-    height: 50px;
-}
-.non p{
-  font-size: 2rem;
-  margin-left: 12px;
-
-
-}
-.bht h2{
-    font-weight: 100;
 
 }
 @media (max-width: 1000px){
