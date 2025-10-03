@@ -15,6 +15,12 @@
 
     padding: 5%;
 }
+.m1 {
+    background-image: url("1.png");
+    background-position: center;
+    background-size: cover;
+    padding: 32px;
+}
 .euro {
     width: 50%;
     padding: 5%;
@@ -102,6 +108,8 @@
     .euro3
     {
         display: block;
+
+
     }
    .euro2
     {
