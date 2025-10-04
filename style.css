@@ -98,43 +98,35 @@ body {
         width: 100%;
         margin-bottom: 5%;
         border-radius: 8%;
-        box-shadow: 0px 0px 43px #5a3e36;;
+        box-shadow: 0px 0px 43px #5a3e36;
     }
     .i2 {
         width: 100%;
         margin-bottom: 5%;
         border-radius: 8%;
-        box-shadow: 0px 0px 43px #5a3e36;;
+        box-shadow: 0px 0px 43px #5a3e36;
     }
     .h1 {
-    margin-bottom: 5%;
-    font-size: 62px;
-    color: #5a3e36;
-}
-    .hjk{
-      font-size: 2rem;
-
-
+        margin-bottom: 5%;
+        font-size: 62px;
+        color: #5a3e36;
     }
-    .yte{
+    .hjk {
+        font-size: 2rem;
+    }
+    .yte {
         height: 11rem;
-        font-size: 2rem
+        font-size: 2rem;
     }
-    .uyt{
+    .uyt {
         width: 100%;
     }
-    #moduleWindow
-    {
+    #moduleWindow {
         font-size: 2.5rem;
     }
-    #moduleWindow img
-    {
+    #moduleWindow img {
         width: 35%;
     }
-
-
-
-
 }
 
 #moduleWindow {
@@ -173,11 +165,12 @@ body {
     background-color: #1877f2;
     border-radius: 15px;
     text-decoration: none;
-    padding:1%;
+    padding: 1%;
     padding-left: 15%;
     padding-right: 15%;
-
-
+}
+#dropdown{
+    font-weight: 1000;
 }
 
 @keyframes animationFacebook {
