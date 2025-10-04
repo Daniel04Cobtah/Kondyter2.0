@@ -55,6 +55,7 @@
 }
 .europapa {
     font-size: xx-large;
+    margin: 0;
     width: 90%;
     text-align: center;
     font-family: "Vollkorn", serif;
@@ -67,6 +68,7 @@
 }
 .mainStyles {
     background-image: url(1.png);
+    padding-bottom: 5%;
 }
 @media (max-width: 1002px) {
     .tortyk {
@@ -88,7 +90,6 @@
     }
     .yte{
         height: 11rem;
-        width: 100%;
         font-size: 1.5rem
     }
     .uyt{
