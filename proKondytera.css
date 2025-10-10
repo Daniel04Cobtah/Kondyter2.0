@@ -61,6 +61,7 @@
 }
 .europapa {
     font-size: xx-large;
+    margin: 0;
     width: 90%;
     text-align: center;
     font-family: "Vollkorn", serif;
@@ -80,68 +81,53 @@
         font-size: 2.5rem;
     }
 
-   .europapa {
-    font-size: 2rem;
-    width: 100%;
-
-
-       }
-
-     .hjk{
-      font-size: 2rem;
-
-
+    .europapa {
+        font-size: 2rem;
+        width: 100%;
     }
-    .yte{
+
+    .hjk {
+        font-size: 2rem;
+    }
+    .yte {
         height: 11rem;
-        width: 100%;
-        font-size: 1.5rem
+        font-size: 1.5rem;
     }
-    .uyt{
+    .uyt {
         width: 100%;
     }
 
-    .euro
-    {
+    .euro {
         width: 90%;
     }
-    .euro3
-    {
+    .euro3 {
         display: block;
 
 
     }
-   .euro2
-    {
+    .euro2 {
         width: 65%;
         margin: 0 auto;
     }
-   .tortyk
-    {
+    .tortyk {
         font-size: 3rem;
     }
-    .euro img
-    {
+    .euro img {
         display: block;
         width: 60%;
         margin: 0 auto;
         margin-top: 30px;
     }
-     #moduleWindow
-    {
+    #moduleWindow {
         font-size: 2.5rem;
     }
-    #moduleWindow img
-    {
+    #moduleWindow img {
         width: 35%;
     }
-
-
 }
 
 #moduleWindow {
     width: 40%;
-    height: 20vh;
     text-align: center;
     background: #f2f2f2;
     position: fixed;
@@ -176,11 +162,9 @@
     background-color: #1877f2;
     border-radius: 15px;
     text-decoration: none;
-    padding:1%;
+    padding: 1%;
     padding-left: 15%;
     padding-right: 15%;
-
-
 }
 
 @keyframes animationFacebook {
@@ -193,3 +177,17 @@
     }
 }
 
+.fufu {
+    font-weight: 650;
+    border: 0;
+    background-color: transparent;
+    text-shadow: -5px 5px 5px #5a3e36;
+    color: #2f2f2f;
+}
+
+.DecorateButton ul {
+    background-color: #fff7ad;
+}
+.DecorateButton ul li a:hover {
+    background-color: #e8db60 !important;
+}
