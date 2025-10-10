@@ -15,6 +15,8 @@
   border-radius: 41px;
   border: 4px solid;
   box-shadow: 1px 1px 19px #242424;
+br {
+  display: none;
 }
 .d11 {
   margin-top: 5%;
@@ -101,7 +103,6 @@
   }
   .hr2 {
     height: 12px;
-    background-color: black;
     width: 73%;
     border-radius: 26px;
     margin-bottom: 20px;

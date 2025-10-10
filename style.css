@@ -130,3 +130,13 @@ body {
         width: 100%;
     }
 }
+
+@keyframes animationFacebook {
+    from {
+        transform: translate(-50%, -100%);
+    }
+
+    to {
+        transform: translate(-50%, 35%);
+    }
+}

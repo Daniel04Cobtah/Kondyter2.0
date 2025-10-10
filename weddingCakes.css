@@ -103,4 +103,67 @@
   .p1{
    font-size: 3rem;
   }
+   #moduleWindow
+    {
+        font-size: 2.5rem;
+    }
+    #moduleWindow img
+    {
+        width: 35%;
+    }
 }
+
+#moduleWindow {
+    width: 40%;
+    height: 20vh;
+    text-align: center;
+    background: #f2f2f2;
+    position: fixed;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    left: 50%;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+    top: 3%;
+    display: none;
+    animation-name: animationFacebook;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    transform: translate(-50%, 35%);
+    animation-timing-function: ease-out;
+}
+.America {
+    align-content: flex-start;
+    text-align: center;
+}
+.America hr {
+    width: 50%;
+    background-color: black;
+}
+.buket {
+    color: black;
+    margin: -0;
+}
+
+.atlantian {
+    color: white;
+    background-color: #1877f2;
+    border-radius: 15px;
+    text-decoration: none;
+    padding:1%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+
+}
+
+@keyframes animationFacebook {
+    from {
+        transform: translate(-50%, -100%);
+    }
+
+    to {
+        transform: translate(-50%, 35%);
+    }
+}
+
