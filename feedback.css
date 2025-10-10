@@ -120,3 +120,17 @@ br {
     transform: translate(-50%, 35%);
   }
 }
+.fufu {
+  font-weight: 650;
+  border: 0;
+  background-color: transparent;
+  text-shadow: -5px 5px 5px #5a3e36;
+  color: #2f2f2f;
+}
+
+.DecorateButton ul {
+  background-color: #fff7ad;
+}
+.DecorateButton ul li a:hover {
+  background-color: #e8db60 !important;
+}
