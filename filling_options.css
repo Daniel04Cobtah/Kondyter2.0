@@ -6,7 +6,7 @@
 
 }
 .background_Main {
-    background-image: url("image/1.png");
+    background-color: darkgrey;
     background-size: cover;
     background-position: center;
 }
@@ -49,7 +49,7 @@
 }
 .il
 {
-    background-color: lightpink;
+    background-color: darkgrey;
     border-radius: 10px;
     font-size: large;
 }

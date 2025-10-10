@@ -3,9 +3,9 @@ body {
     margin: 0;
 }
 .yte {
-    background: linear-gradient(to right, #fff7ad, #ffc2fb);
-    text-shadow: -5px 5px 5px #5a3e36;
-    color: #2f2f2f;
+    background-color: #808080;
+    text-shadow: -5px 5px 5px #6f6f6f;
+    color: #c8c8c8;
     display: flex;
     justify-content: space-between;
     font-family: "Open Sans", sans-serif;
@@ -22,12 +22,14 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 .uyt li a {
-    text-shadow: -5px 5px 5px #5a3e36;
-    color: #2f2f2f;
+    text-shadow: -5px 5px 5px #6f6f6f;
+    color: #c8c8c8;
     text-decoration: none;
 }
 .m1 {
-    background-image: url("1.png");
+
+    background-color: darkgrey;
+
     background-position: center;
     background-size: cover;
     padding: 32px;
@@ -36,7 +38,7 @@ body {
     text-align: center;
     font-size: 46px;
     margin: 0;
-    color: #5a3e36;
+    color: #000000;
 }
 .i1 {
     width: 20%;
@@ -86,6 +88,12 @@ body {
     width: 100%;
     height: 100%;
 }
+.sub {
+   background: linear-gradient(to top, #5f5f5f, darkgrey);
+    height: 33px;
+    width: 100%;
+
+}
 @media (max-width: 1000px) {
     .d1 {
         display: block;
@@ -98,86 +106,29 @@ body {
         width: 100%;
         margin-bottom: 5%;
         border-radius: 8%;
-        box-shadow: 0px 0px 43px #5a3e36;;
+        box-shadow: 0px 0px 43px #5a3e36;
     }
     .i2 {
         width: 100%;
         margin-bottom: 5%;
         border-radius: 8%;
-        box-shadow: 0px 0px 43px #5a3e36;;
+        box-shadow: 0px 0px 43px #5a3e36;
     }
     .h1 {
-    margin-bottom: 5%;
-    font-size: 62px;
-    color: #5a3e36;
-}
-    .hjk{
-      font-size: 2rem;
-
-
+        margin-bottom: 5%;
+        font-size: 62px;
+        color: #5a3e36;
     }
-    .yte{
+    .hjk {
+        font-size: 2rem;
+    }
+    .yte {
         height: 11rem;
-        font-size: 2rem
+        font-size: 2rem;
     }
-    .uyt{
+    .uyt {
         width: 100%;
     }
-    #moduleWindow
-    {
-        font-size: 2.5rem;
-    }
-    #moduleWindow img
-    {
-        width: 35%;
-    }
-
-
-
-
-}
-
-#moduleWindow {
-    width: 40%;
-    text-align: center;
-    background: #f2f2f2;
-    position: fixed;
-    transform: translateX(-50%);
-    border-radius: 25px;
-    left: 50%;
-    padding: 25px;
-    box-shadow: 0px 0px 10px black;
-    top: 3%;
-    display: none;
-    animation-name: animationFacebook;
-    animation-duration: 1.5s;
-    animation-iteration-count: 1;
-    transform: translate(-50%, 35%);
-    animation-timing-function: ease-out;
-}
-.America {
-    align-content: flex-start;
-    text-align: center;
-}
-.America hr {
-    width: 50%;
-    background-color: black;
-}
-.buket {
-    color: black;
-    margin: -0;
-}
-
-.atlantian {
-    color: white;
-    background-color: #1877f2;
-    border-radius: 15px;
-    text-decoration: none;
-    padding:1%;
-    padding-left: 15%;
-    padding-right: 15%;
-
-
 }
 
 @keyframes animationFacebook {

@@ -3,7 +3,7 @@
     font-size: 2rem;
     padding: 5%;
     font-family: "Vollkorn", serif;
-    background-color: rgba(255, 193, 149, 0.6);
+    background-color: rgba(162, 162, 162, 0.6);
     background-size: cover;
     border-radius: 5%;
     margin: 0 auto;
@@ -14,6 +14,12 @@
     justify-content: flex-end;
 
     padding: 5%;
+}
+.m1 {
+    background-image: url("1.png");
+    background-position: center;
+    background-size: cover;
+    padding: 32px;
 }
 .euro {
     width: 50%;
@@ -58,7 +64,7 @@
     width: 90%;
     text-align: center;
     font-family: "Vollkorn", serif;
-    background-color: rgba(255, 207, 173, 0.6);
+    background-color: rgba(162, 162, 162, 0.6);
     background-size: cover;
     border-radius: 5%;
 }
@@ -66,7 +72,7 @@
     display: flex;
 }
 .mainStyles {
-    background-image: url(1.png);
+    background-color: darkgrey;
 }
 @media (max-width: 1002px) {
     .tortyk {
@@ -102,6 +108,8 @@
     .euro3
     {
         display: block;
+
+
     }
    .euro2
     {
