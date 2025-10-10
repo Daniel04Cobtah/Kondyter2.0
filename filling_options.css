@@ -5,7 +5,7 @@
     width: 150px;
 }
 .background_Main {
-    background-image: url("image/1.png");
+    background-color: darkgrey;
     background-size: cover;
     background-position: center;
 }
