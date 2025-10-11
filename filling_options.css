@@ -3,14 +3,12 @@
 
 .igm {
     width: 150px;
-
 }
 .background_Main {
     background-color: #deffd6;
     background-size: cover;
     background-position: center;
 }
-
 
 .text {
     text-align: center;
@@ -32,20 +30,13 @@
     font-weight: 1000;
 }
 
-
-
 .pancace div h3 {
     font-family: "Pattaya", sans-serif;
     font-size: 2rem;
-
 }
 
-
-
-.pancace div img
-{
-    box-shadow: 0 0 10px  black;
-
+.pancace div img {
+    box-shadow: 0 0 10px black;
 }
 .il
 {
@@ -55,68 +46,48 @@
         border-top: 5px solid lightgreen;
     border-bottom: 5px solid green;
 }
-.ugc
-{
+.ugc {
     padding-bottom: 40px;
     padding: 10%;
 }
-@media(max-width:1000px)
-{
-
-
-    .pancace
-    {
+@media (max-width: 1000px) {
+    .pancace {
         display: block;
         width: 100%;
-
-
     }
-    .pancace div
-    {
+    .pancace div {
         width: 100%;
         height: max-content;
-
     }
-    .pancace div ul
-    {
-      font-size: 5rem;
+    .pancace div ul {
+        font-size: 5rem;
         height: max-content;
     }
-    .pancace div img
-    {
+    .pancace div img {
         width: 50%;
-
     }
-    .pancace div h3
-    {
+    .pancace div h3 {
         height: max-content;
         font-size: 4rem;
         align-content: center;
     }
-    .il
-    {
+    .il {
         font-size: 5rem;
         font-weight: 900;
     }
-    .ugc
-    {
+    .ugc {
         padding: 10%;
     }
-     #moduleWindow
-    {
+    #moduleWindow {
         font-size: 2.5rem;
     }
-    #moduleWindow img
-    {
+    #moduleWindow img {
         width: 35%;
     }
-
-
 }
 
 #moduleWindow {
     width: 40%;
-    height: 20vh;
     text-align: center;
     background: #f2f2f2;
     position: fixed;
@@ -151,11 +122,9 @@
     background-color: #1877f2;
     border-radius: 15px;
     text-decoration: none;
-    padding:1%;
+    padding: 1%;
     padding-left: 15%;
     padding-right: 15%;
-
-
 }
 
 @keyframes animationFacebook {
@@ -167,6 +136,17 @@
         transform: translate(-50%, 35%);
     }
 }
+.fufu {
+    font-weight: 650;
+    border: 0;
+    background-color: transparent;
+    text-shadow: -5px 5px 5px #5a3e36;
+    color: #2f2f2f;
+}
 
-
-
+.DecorateButton ul {
+    background-color: #fff7ad;
+}
+.DecorateButton ul li a:hover {
+    background-color: #e8db60 !important;
+}

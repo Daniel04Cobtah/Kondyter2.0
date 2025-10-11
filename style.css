@@ -15,6 +15,7 @@ body {
 
 .uyt {
     display: flex;
+    margin: 0;
     justify-content: space-between;
     width: 50%;
     list-style-type: none;
@@ -24,6 +25,10 @@ body {
 
     color: #0e6407;
     text-decoration: none;
+}
+.uyt li {
+    margin: 0;
+    align-content: center;
 }
 .m1 {
     background-color: #deffd6;
@@ -126,6 +131,58 @@ body {
     .uyt {
         width: 100%;
     }
+
+    #moduleWindow {
+        font-size: 2.5rem;
+    }
+    #moduleWindow img {
+        width: 35%;
+    }
+}
+
+#moduleWindow {
+    width: 40%;
+    text-align: center;
+    background: #f2f2f2;
+    position: fixed;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    left: 50%;
+    padding: 25px;
+    box-shadow: 0px 0px 10px black;
+    top: 3%;
+    display: none;
+    animation-name: animationFacebook;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    transform: translate(-50%, 35%);
+    animation-timing-function: ease-out;
+}
+.America {
+    align-content: flex-start;
+    text-align: center;
+}
+.America hr {
+    width: 50%;
+    background-color: black;
+}
+.buket {
+    color: black;
+    margin: -0;
+}
+
+.atlantian {
+    color: white;
+    background-color: #1877f2;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#dropdown {
+    font-weight: 1000;
+
 }
 
 @keyframes animationFacebook {
@@ -136,4 +193,19 @@ body {
     to {
         transform: translate(-50%, 35%);
     }
+}
+
+.fufu {
+    font-weight: 650;
+    border: 0;
+    background-color: transparent;
+    text-shadow: -5px 5px 5px #5a3e36;
+    color: #2f2f2f;
+}
+
+.DecorateButton ul {
+    background-color: #fff7ad;
+}
+.DecorateButton ul li a:hover {
+    background-color: #e8db60 !important;
 }
