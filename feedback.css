@@ -38,6 +38,9 @@ br {
   margin-top: 5%;
   display: flex;
   text-align: center;
+   color: #4f4f4f;
+    text-shadow: -7px 3px 7px #000000;
+
 }
 .i9 {
   width: 70%;
