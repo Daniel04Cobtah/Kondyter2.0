@@ -26,7 +26,7 @@
     padding: 0;
     height: 20vh;
     font-family: "Caveat", cursive;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 1000;
 }
 
@@ -146,4 +146,10 @@
 }
 .DecorateButton ul li a:hover {
     background-color: #e8db60 !important;
+}
+.ugc ul {
+    margin-bottom: 25%;
+}
+.ugc div {
+    margin-bottom: 2%;
 }
