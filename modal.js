@@ -5,7 +5,7 @@ let modal = document.getElementById("moduleWindow");
 function FACEBOOK()
 {
     modal.style.display = "block";
-    let tea = setInterval(cleaning, 10000);
+    let tea = setInterval(cleaning, 1000000);
 
 }
 function cleaning()
