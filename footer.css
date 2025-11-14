@@ -53,6 +53,7 @@
 
 #moduleWindow {
     width: 40%;
+    z-index: 100;
     text-align: center;
     background: #f2f2f2;
     position: fixed;
@@ -64,7 +65,7 @@
     top: 3%;
     display: none;
     animation-name: animationFacebook;
-    animation-duration: 1.5s;
+    animation-duration: 0.7s;
     animation-iteration-count: 1;
     transform: translate(-50%, 35%);
     animation-timing-function: ease-out;
@@ -87,11 +88,9 @@
     background-color: #1877f2;
     border-radius: 15px;
     text-decoration: none;
-    padding:1%;
+    padding: 1%;
     padding-left: 15%;
     padding-right: 15%;
-
-
 }
 
 @keyframes animationFacebook {
@@ -103,7 +102,6 @@
         transform: translate(-50%, 35%);
     }
 }
-
-
-
-
+.Hr3 {
+    margin: 1rem auto;
+}

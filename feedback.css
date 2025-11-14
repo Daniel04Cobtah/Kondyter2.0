@@ -95,6 +95,7 @@ br {
 }
 #moduleWindow {
   width: 40%;
+  z-index: 100;
   text-align: center;
   background: #f2f2f2;
   position: fixed;
@@ -123,22 +124,22 @@ br {
   margin: -0;
 }
 
-  .i7,
-  .i8,
-  .i9 {
-    border-width: 3px;
-    width: 80%;
-  }
-  #br {
-    display: none;
-  }
-  .hr2 {
-    height: 12px;
-    width: 73%;
-    border-radius: 26px;
-    margin-bottom: 20px;
-  }
+.i7,
+.i8,
+.i9 {
+  border-width: 3px;
+  width: 80%;
 }
+#br {
+  display: none;
+}
+.hr2 {
+  height: 12px;
+  width: 73%;
+  border-radius: 26px;
+  margin-bottom: 20px;
+}
+
 .fufu {
   font-weight: 650;
   border: 0;
@@ -152,4 +153,7 @@ br {
 }
 .DecorateButton ul li a:hover {
   background-color: #e8db60 !important;
+}
+.Hr3 {
+  margin: 1rem auto;
 }

@@ -102,8 +102,6 @@
     }
     .euro3 {
         display: block;
-
-
     }
     .euro2 {
         width: 65%;
@@ -128,6 +126,7 @@
 
 #moduleWindow {
     width: 40%;
+    z-index: 100;
     text-align: center;
     background: #f2f2f2;
     position: fixed;
@@ -190,4 +189,8 @@
 }
 .DecorateButton ul li a:hover {
     background-color: #e8db60 !important;
+}
+
+.Hr3 {
+    margin: 1rem auto;
 }
