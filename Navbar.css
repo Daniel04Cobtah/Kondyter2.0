@@ -1,0 +1,38 @@
+.navbar-brand {
+    font-size: 1.7rem !important;
+    font-weight: 700;
+}
+
+.nav-link {
+    font-size: 1.2rem !important;
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        padding-top: 18px !important;
+        padding-bottom: 18px !important;
+    }
+
+    .navbar-brand {
+        font-size: 2.2rem !important;
+        font-weight: 800 !important;
+    }
+
+    .navbar-toggler {
+        padding: 1rem 1.4rem !important;
+        font-size: 1.8rem !important;
+        border-width: 3px !important;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.9rem !important;
+        padding: 18px 0 !important;
+        font-weight: 700 !important;
+    }
+
+    .dropdown-menu .dropdown-item {
+        font-size: 1.9rem !important;
+        padding: 18px 28px !important;
+    }
+}
