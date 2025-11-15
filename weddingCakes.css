@@ -1,14 +1,13 @@
 .i2 {
   width: 48%;
   border-radius: 2%;
-  box-shadow: 0 0 16px #380909ff;
+  box-shadow: 0 0 20px #565656ff;
 }
 .d22 {
   width: 50%;
   text-align: center;
 }
 .h5 {
-  font-size: 4rem;
   text-align: center;
 }
 .d17 {
@@ -19,11 +18,11 @@
   margin: 0 auto;
   width: 70%;
   font-weight: 900;
-  background-color: #5a3e36;
+  background-color: #7f7f7fff;
   padding: 50px 30px;
   border-radius: 20px;
-  box-shadow: 0 0 15px #5a3e36;
-  color: #b28e7d;
+  box-shadow: 0 0 15px #565656ff;
+  color: #d2d2d2;
 }
 .d18 {
   display: flex;
@@ -33,7 +32,7 @@
 .i6 {
   width: 71%;
   border-radius: 2%;
-  box-shadow: 0 0 16px #380909ff;
+  box-shadow: 0 0 16px #565656ff;
 }
 .d19 {
   width: 50%;
@@ -79,7 +78,7 @@
   .i2 {
     width: 50%;
     border-radius: 2%;
-    box-shadow: 0 0 16px #380909ff;
+    box-shadow: 0 0 16px #565656ff;
   }
   .hr1 {
     height: 10px;
@@ -98,7 +97,7 @@
   .i6 {
     width: 101%;
     border-radius: 2%;
-    box-shadow: 0 0 16px #380909ff;
+    box-shadow: 0 0 23px #565656ff;
   }
   .p1 {
     font-size: 3rem;
@@ -113,6 +112,7 @@
 
 #moduleWindow {
   width: 40%;
+  z-index: 100;
   text-align: center;
   background: #f2f2f2;
   position: fixed;
@@ -141,7 +141,7 @@
   color: black;
   margin: -0;
 }
-
+ssss
 .atlantian {
   color: white;
   background-color: #1877f2;
@@ -173,4 +173,7 @@
 }
 .DecorateButton ul li a:hover {
   background-color: #e8db60 !important;
+}
+.Hr3 {
+    margin: 1rem auto;
 }

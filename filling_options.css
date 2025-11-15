@@ -26,7 +26,7 @@
     padding: 0;
     height: 20vh;
     font-family: "Caveat", cursive;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 1000;
 }
 
@@ -85,6 +85,7 @@
 
 #moduleWindow {
     width: 40%;
+    z-index: 100;
     text-align: center;
     background: #f2f2f2;
     position: fixed;
@@ -146,4 +147,13 @@
 }
 .DecorateButton ul li a:hover {
     background-color: #e8db60 !important;
+}
+.ugc ul {
+    margin-bottom: 25%;
+}
+.ugc div {
+    margin-bottom: 2%;
+}
+.Hr3 {
+    margin: 1rem auto;
 }
