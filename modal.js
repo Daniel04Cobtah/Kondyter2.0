@@ -1,11 +1,11 @@
-let interval =  setInterval(FACEBOOK, 1000);
+let interval =  setInterval(FACEBOOK, 10000);
 
 let modal = document.getElementById("moduleWindow");
 
 function FACEBOOK()
 {
     modal.style.display = "block";
-    let tea = setInterval(cleaning, 100);
+    let tea = setInterval(cleaning, 10000);
 
 }
 function cleaning()
