@@ -97,9 +97,8 @@ body {
     height: 33px;
     width: 100%;
 }
-.dropdown-menu{
-    background-color: #c7c7c7
-
+.dropdown-menu {
+    background-color: #c7c7c7;
 }
 @media (max-width: 1000px) {
     .d1 {
@@ -171,6 +170,7 @@ body {
 .America hr {
     width: 50%;
     background-color: black;
+    margin: 0 auto;
 }
 .buket {
     color: black;
