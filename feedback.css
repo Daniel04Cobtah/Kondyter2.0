@@ -62,7 +62,9 @@ br {
     font-size: 6rem;
     margin-bottom: 74px;
   }
-
+  .atlantian {
+    font-size: 1.5rem;
+  }
   .d11,
   .d12 {
     flex-direction: column;

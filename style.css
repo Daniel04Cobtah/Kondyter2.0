@@ -185,6 +185,7 @@ body {
     padding: 1%;
     padding-left: 15%;
     padding-right: 15%;
+    width: 100%;
 }
 #dropdown {
     font-weight: 1000;
@@ -216,4 +217,8 @@ body {
 .Hr3 {
     margin: 1rem auto;
 }
-
+@media (max-width: 1000px) {
+    .atlantian {
+        font-size: 1.5rem;
+    }
+}
