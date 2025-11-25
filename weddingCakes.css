@@ -12,7 +12,6 @@
 }
 .h5 {
   text-align: center;
-
 }
 .d17 {
   width: 50%;
@@ -67,6 +66,8 @@
   }
    .atlantian {
     font-size: 1.5rem;
+  .d24 {
+    padding: 0px;
   }
   .d25 {
     display: flex;
@@ -107,7 +108,9 @@
     box-shadow: 0 0 23px #565656ff;
   }
   .p1 {
-    font-size: 3rem;
+    font-size: 2.3.5rem;
+    width: 100%;
+    text-align: center;
   }
   #moduleWindow {
     font-size: 2.5rem;
@@ -183,9 +186,8 @@ ssss .atlantian {
 .Hr3 {
   margin: 1rem auto;
 }
-#H5
-{
-    font-size: 5rem;
+#H5 {
+  font-size: 5rem;
   display: flex;
   margin-top: 110px;
 }
