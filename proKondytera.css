@@ -82,7 +82,10 @@
         width: 70%;
         font-size: 2.5rem;
     }
-
+    .atlantian {
+        font-size: 1.3rem;
+        width: 100%;
+    }
     .europapa {
         font-size: 2rem;
         width: 100%;
@@ -117,12 +120,6 @@
         width: 60%;
         margin: 0 auto;
         margin-top: 30px;
-    }
-    #moduleWindow {
-        font-size: 2.5rem;
-    }
-    #moduleWindow img {
-        width: 35%;
     }
 }
 
